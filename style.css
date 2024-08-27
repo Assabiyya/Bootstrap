@@ -1,0 +1,116 @@
+:root {
+    --theme-text: #4528B6;
+    --theme-text2: #131212;
+}
+
+/* Imports */
+@import url('https://fonts.cdnfonts.com/css/philadelphian-gothic');
+
+@font-face {
+    font-family: 'Dhyana Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dhyana Regular'), url('Dhyana-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Dhyana Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dhyana Bold'), url('Dhyana-Bold.woff') format('woff');
+    }
+
+/* Start Body */
+body{
+    background-image: url("assets/AdobeStock_292611643 1.svg");
+}
+
+ul{
+    width: 70%;
+    justify-content: space-between !important;
+}
+
+ul li a{
+    color: black !important;
+    font-family: 'Dhyana regular' !important;
+    font-size: 28px !important;
+}
+
+#increase-my-revenue{
+    background-color: var(--theme-text);
+    color: white !important;
+    font-size: 24px;
+    align-items: normal !important;
+}
+
+h2{
+    margin-top: 170px;
+    margin-bottom: 40px;
+    font-family: 'Philadelphian-Gothic' !important;
+    color: var(--theme-text);
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 86.4px;
+}
+
+h1{
+    font-family: 'Philadelphian-Gothic' !important;
+    color: var(--theme-text2);
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 86.4px;
+}
+
+#p1{
+    width: 75%;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    color: var(--theme-text2);
+    font-family: 'Dhyana regular' !important;
+    font-size: 40px;
+}
+
+#kush{
+    width: 60%;
+    left: 20%;
+}
+
+#group-317 {
+    margin-top: 50%;
+}
+
+#tech{
+    width: 100%;
+    margin: 200px auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#full-stack{
+    margin-top: 200px;
+}
+
+#we-create{
+    margin-top: 50px;
+}
+
+#brand-strategy{
+    width: 100%;
+    margin: 50px auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#brand-strategy img{
+    margin: 20px 0;
+}
+
+#z-clip-left, #z-clip-right{
+    position: absolute;
+}
+
+#z-clip-left{
+    top: 0;
+}
